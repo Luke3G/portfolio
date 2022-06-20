@@ -17,10 +17,22 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="myscripts.js"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
+    <style>#outer{width:300px;text-align:center;margin:0 auto}
+        #cover{padding:4px 0;border:2px solid #111}
+        #da,#dt,#time{text-align:center;padding:3px}</style>
+        <script>function clock(){var date=new Date();var weekday=date.getDay();var year=date.getYear();var month=date.getMonth();var day=date.getDate();var hour=date.getHours();var minute=date.getMinutes();var second=date.getSeconds();var days=new Array ('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday' );var months=new Array('January','February','March','April','May','June','July','August','September','October','November','December');var monthname=months[month];var dayname=days[weekday];var ap;if(year<1000){year=year+1900} if(hour>=12){hour=hour-12;ap='PM'}else{ap='AM'} if(minute<10){minute='0'+minute} if(second<10){second='0'+second};
+            document.getElementById('time').innerHTML=hour+' : '+ minute +' : '+second+' ' +ap; 
+            document.getElementById('da').innerHTML=dayname;
+            document.getElementById('dt').innerHTML=monthname+' '+day+', '+year;
+            setTimeout('clock()',1000 )}window.onload=function(){clock()}
+            // Widget Code by https://karvitt.com/widgets/
+            </script>
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -34,7 +46,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="Clip For Ticket Plex.PNG" class="card-img-top" alt="Ticket Plex">
                     <div class="card-body">
@@ -47,18 +59,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
                         <img src="Clip for Tumbling Toddlers.jpg" class="card-img-top" alt="Tumbling Toddlers">
                         <div class="card-body">
                           <h5 class="card-title">Tumbling Toddlers</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">This site is a test project meant for pre schools to schow alot of information for the parents/customers</p>
                           <a href="https://luke3g.github.io/Tumbling_Toddlers/" class="btn btn-primary">Tumbling Toddlers</a>
                         </div>
                       </div>
+                      <br>
+                      <br>
                 </div>
+                
             </div>        
-            <div class="col-md-5">
+            <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
                     <img src="Clip for holiday countdown.PNG" class="card-img-top" alt="Holiday countdown">
                     <div class="card-body">
@@ -67,7 +82,55 @@
                       <a href="https://luke3g.github.io/holiday-countdown/" class="btn btn-primary">Birthday Countdown</a>
                     </div>
             </div>
-        </div>   
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <div id=outer><div class='ac b'>Digital Clock</div><div id=cover><div id=dt></div><div id=da></div><div id=time></div></div></div>
+            </div>
+            <div class="col-md-5">
+                <iframe src="https://widgetscode.com/wc/sudoku/all?skin=aqua0" style="width:320px;height:370px;margin:0;border:0"></iframe>
+                <br>
+        <br>
+        <br>
+            </div>
+            <div class="row-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="You Are What You Eat.PNG" class="card-img-top" alt="Tumbling Toddlers">
+                    <div class="card-body">
+                      <h5 class="card-title">Tumbling Toddlers</h5>
+                      <p class="card-text">You are what you eat is was a test project to show what to make for customers this one has a lot of Lorem ipsum.</p>
+                      <a href="https://luke3g.github.io/whatyoueat/" class="btn btn-primary">You Are What You Eat</a>
+                    </div>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-7">
+                    <h6>Contact@
+                        <ol>
+                            <ul>Lucaseganter18@Gmail.com</ul>
+                            <ul>720-292-6796</ul>
+                        </ol>
+                    </h6>
+                </div>
+                <div class="col-md-6">
+                    <ol>
+                        <h6>Programs Used
+                            <ul><a href="https://git-scm.com/downloads" target="blank">@Git Bash</a></ul>
+                            <ul><a href="https://github.com/" target="blank">@GitHub</a></ul>
+                            <ul><a href="https://code.visualstudio.com/" target="blank">@Visual Studio Code</a></ul>
+                    </ol>
+                    </h6>
+                </div>
+            </div>
+        </footer>
+        
     </div>
 </body>
 
