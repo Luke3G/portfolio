@@ -22,6 +22,19 @@
 </head>
 
 <body>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="2.PNG" class="d-block" alt="Visual Studio Code" width="1259" height="350">
+          </div>
+          <div class="carousel-item">
+            <img src="1.PNG" class="d-block" alt="Visual Studio Code" width="1259" height="350">
+          </div>
+          <div class="carousel-item">
+            <img src="Carrosel 3.PNG" class="d-block" alt="Gitbash Code" width="1259" height="350">
+          </div>
+        </div>
+      </div>
     <style>#outer{width:300px;text-align:center;margin:0 auto}
         #cover{padding:4px 0;border:2px solid #111}
         #da,#dt,#time{text-align:center;padding:3px}</style>
@@ -30,7 +43,6 @@
             document.getElementById('da').innerHTML=dayname;
             document.getElementById('dt').innerHTML=monthname+' '+day+', '+year;
             setTimeout('clock()',1000 )}window.onload=function(){clock()}
-            // Widget Code by https://karvitt.com/widgets/
             </script>
 
     <div class="container-fluid">
