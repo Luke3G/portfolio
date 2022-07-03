@@ -18,6 +18,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="myscripts.js"></script>
+    <script src="index.js"></script>
     <title>Portfolio</title>
 </head>
 
@@ -52,19 +53,21 @@
                     <div class="container">
                         <h1 class="display-4">Lucas Ganter</h1>
                         <p class="lead">Hello thank you for looking over my portfolio.Ive recived my web development certificate from <a href="https://www.emilygriffith.edu/" target="blank" class="emily">Emily Griffith Technical College</a>. Here I will show you some of my
-                            projects and let you know why I would be a good asset to your team</p>
+                            projects and let you know why I would be a good asset to your team</p><h5 class="contact">
+                                <ol>
+                                    <ul>Lucaseganter18@Gmail.com</ul>
+                                    <ul>720-292-6796</ul>
+                                    <ul><a href="https://www.linkedin.com/in/lucas-ganter-412974221/" target="blank">Linkdin</a></ul>
+                                    <ul><a href="https://github.com/Luke3G" target="blank">Github</a></ul>
+                                </ol>
+                            </h5>
                     </div>
                 </div>
             </div>
-            <div class="col-md-7">
-                <h3 class="contact">Contact
-                    <ol>
-                        <ul>Lucaseganter18@Gmail.com</ul>
-                        <ul>720-292-6796</ul>
-                        <ul><a href="https://www.linkedin.com/in/lucas-ganter-412974221/" target="blank">Linkdin</a></ul>
-                    </ol>
-                </h3>
-            </div>
+        </div>
+        <div class="col-md-3">
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-7ca12c64-0799-4a6f-b839-20d93b58e41c"></div>
         </div>
         <div class="row">
             <div class="col-md-3">
@@ -119,9 +122,40 @@
                       <a href="https://luke3g.github.io/whatyoueat/" class="btn btn-primary">You Are What You Eat</a>
                     </div>
             </div>
-            
+
+            <!--test-->
         </div>
-        
+        <div class="row">
+            <div class="col-md-12">
+            <h2><strong>Contact Me</strong></h2>
+            <div class="test"></div>
+            <form id="form" action="https://github.com/Luke3G" method="get">
+                <label for="name"><strong>Name</strong></label>
+                <br>
+                <input type="text" id="name">
+                <br>
+
+                <br>
+                <label for="e-mail" id="email">E-mail</label>
+                <br>
+                <input type="email" id="e-mail" required>
+                <br>
+                <br>
+                <br>
+                <h5>Best Time to Contact You...</h5>
+                <input type="radio" id="day" name="daytime" value="daytime">
+                <label for="day">Day</label><br>
+                <!--separte to have thm not click both -->
+
+                <input type="radio" id="evening" name="eveningtime" value="evening">
+                <label for="evening">Evening</label><br>
+                <input type="submit" class="submit">
+
+                <div id="dialog" title="Basic dialog">
+            </form>
+ 
+            </div>
+        </div>
     </div>
 </body>
 

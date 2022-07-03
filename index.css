@@ -13,3 +13,10 @@
 .ticketplex{
   padding: 500px;
 }
+.contact{
+  text-decoration: underline;
+}
+.outer{
+  width:300px;text-align:center;margin:0 auto}
+.cover{
+  padding:4px 0;border:2px solid #111}
