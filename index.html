@@ -36,16 +36,7 @@
           </div>
         </div>
       </div>
-    <style>#outer{width:300px;text-align:center;margin:0 auto}
-        #cover{padding:4px 0;border:2px solid #111}
-        #da,#dt,#time{text-align:center;padding:3px}</style>
-        <script>function clock(){var date=new Date();var weekday=date.getDay();var year=date.getYear();var month=date.getMonth();var day=date.getDate();var hour=date.getHours();var minute=date.getMinutes();var second=date.getSeconds();var days=new Array ('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday' );var months=new Array('January','February','March','April','May','June','July','August','September','October','November','December');var monthname=months[month];var dayname=days[weekday];var ap;if(year<1000){year=year+1900} if(hour>=12){hour=hour-12;ap='PM'}else{ap='AM'} if(minute<10){minute='0'+minute} if(second<10){second='0'+second};
-            document.getElementById('time').innerHTML=hour+' : '+ minute +' : '+second+' ' +ap; 
-            document.getElementById('da').innerHTML=dayname;
-            document.getElementById('dt').innerHTML=monthname+' '+day+', '+year;
-            setTimeout('clock()',1000 )}window.onload=function(){clock()}
-            </script>
-
+   
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -55,10 +46,10 @@
                         <p class="lead">Hello thank you for looking over my portfolio.Ive recived my web development certificate from <a href="https://www.emilygriffith.edu/" target="blank" class="emily">Emily Griffith Technical College</a>. Here I will show you some of my
                             projects and let you know why I would be a good asset to your team</p><h5 class="contact">
                                 <ol>
-                                    <ul>Lucaseganter18@Gmail.com</ul>
+                                    <ul><a href="https://mail.google.com/" target="blank" class="email">Lucaseganter18@Gmail.com</a></ul>
                                     <ul>720-292-6796</ul>
-                                    <ul><a href="https://www.linkedin.com/in/lucas-ganter-412974221/" target="blank">Linkdin</a></ul>
-                                    <ul><a href="https://github.com/Luke3G" target="blank">Github</a></ul>
+                                    <ul><a href="https://www.linkedin.com/in/lucas-ganter-412974221/" target="blank" class="linkdin">Linkdin</a></ul>
+                                    <ul><a href="https://github.com/Luke3G" target="blank" class="github">Github</a></ul>
                                 </ol>
                             </h5>
                     </div>
@@ -124,38 +115,7 @@
             </div>
 
             <!--test-->
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-            <h2><strong>Contact Me</strong></h2>
-            <div class="test"></div>
-            <form id="form" action="https://github.com/Luke3G" method="get">
-                <label for="name"><strong>Name</strong></label>
-                <br>
-                <input type="text" id="name">
-                <br>
-
-                <br>
-                <label for="e-mail" id="email">E-mail</label>
-                <br>
-                <input type="email" id="e-mail" required>
-                <br>
-                <br>
-                <br>
-                <h5>Best Time to Contact You...</h5>
-                <input type="radio" id="day" name="daytime" value="daytime">
-                <label for="day">Day</label><br>
-                <!--separte to have thm not click both -->
-
-                <input type="radio" id="evening" name="eveningtime" value="evening">
-                <label for="evening">Evening</label><br>
-                <input type="submit" class="submit">
-
-                <div id="dialog" title="Basic dialog">
-            </form>
- 
-            </div>
-        </div>
+        
     </div>
 </body>
 
