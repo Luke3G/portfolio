@@ -29,3 +29,10 @@
 .github{
   color: #ff0000;
 }
+.clock{
+  position: 50px;
+}
+.list{
+  font-weight: normal;
+  text-decoration: none;
+}

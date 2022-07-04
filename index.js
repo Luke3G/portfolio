@@ -4,3 +4,5 @@ function clock(){
     document.getElementById('da').innerHTML=dayname;
     document.getElementById('dt').innerHTML=monthname+' '+day+', '+year;
     setTimeout('clock()',1000 )}window.onload=function(){clock()}
+
+    
