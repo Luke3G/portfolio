@@ -5,4 +5,5 @@ function clock(){
     document.getElementById('dt').innerHTML=monthname+' '+day+', '+year;
     setTimeout('clock()',1000 )}window.onload=function(){clock()}
 
-    
+    AOS.init();
+    src="https://unpkg.com/aos@2.3.1/dist/aos.js"
