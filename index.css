@@ -60,3 +60,39 @@ i {
 .form-control.shadow-0:focus {
   box-shadow: none;
 }
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+* :after, :before {
+  box-sizing: border-box;
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.fa-google:before {
+  content: "\f1a0";
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.fa-google:before {
+  content: "\f1a0";
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.fa-linkedin-in:before {
+  content: "\f0e1";
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.fa-github:before {
+  content: "\f09b";
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
