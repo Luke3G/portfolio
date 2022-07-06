@@ -96,3 +96,9 @@ i {
 *, :after, :before {
   box-sizing: border-box;
 }
+.fa-instagram:before {
+  content: "\f16d";
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
