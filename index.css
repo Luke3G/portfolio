@@ -1,41 +1,60 @@
-*{background-color: black;
+* {
+  background-color: black;
   color: white;
 }
-.jumbotron{
+
+.jumbotron {
   background-color: black;
 }
-.emily{
+
+.emily {
   color: #ff0000;
 }
-.contact{
+
+.contact {
   text-align: center;
 }
-.ticketplex{
+
+.ticketplex {
   padding: 500px;
 }
-.contact{
+
+.contact {
   text-decoration: underline;
 }
-.outer{
-  width:300px;text-align:center;margin:0 auto}
-.cover{
-  padding:4px 0;border:2px solid #111}
-.email{
+
+.outer {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto
+}
+
+.cover {
+  padding: 4px 0;
+  border: 2px solid #111
+}
+
+.email {
   color: #ff0000;
 }
-.linkdin{
+
+.linkdin {
   color: #ff0000;
 }
-.github{
+
+.github {
   color: #ff0000;
 }
-.clock{
+
+.clock {
   position: 50px;
 }
-.list{
+
+.list {
   font-weight: normal;
   text-decoration: none;
 }
+
 body {
   background: black;
   background: -webkit-linear-gradient(to right, black, black);
@@ -60,45 +79,72 @@ i {
 .form-control.shadow-0:focus {
   box-shadow: none;
 }
+
 .fa-facebook-f:before {
   content: "\f39e";
 }
-* :after, :before {
+
+* :after,
+:before {
   box-sizing: border-box;
 }
+
 .fa-twitter:before {
   content: "\f099";
 }
-*, :after, :before {
+
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
+
 .fa-google:before {
   content: "\f1a0";
 }
-*, :after, :before {
+
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
+
 .fa-google:before {
   content: "\f1a0";
 }
-*, :after, :before {
+
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
+
 .fa-linkedin-in:before {
   content: "\f0e1";
 }
-*, :after, :before {
+
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
+
 .fa-github:before {
   content: "\f09b";
 }
-*, :after, :before {
+
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
+
 .fa-instagram:before {
   content: "\f16d";
 }
-*, :after, :before {
+
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
