@@ -148,3 +148,6 @@ i {
 :before {
   box-sizing: border-box;
 }
+.jumbotron {
+  background-color:transparent !important; 
+}
