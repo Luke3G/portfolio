@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio to show my repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luke3G/portfolio.git"
+  },
+  "author": "Lucas Ganter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luke3G/portfolio/issues"
+  },
+  "homepage": "https://github.com/Luke3G/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
+    "jquery": "^3.6.0"
+  }
+}
